@@ -1,0 +1,91 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.79;
+}
+
+[class*="__container"] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 0 0 80px 0;
+}
+
+.article__text {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+.article__title {
+  max-width: 605px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+  margin: 0 0 30px 0;
+}
+
+.article__text p {
+  margin-bottom: 30px;
+}
+
+
+.article__image {
+  font-size: 0;
+  margin: 0 0 80px 0;
+}
+
+.image_1 {
+  margin: 0 auto;
+}
+
+.image_2,
+.image_5 {
+  margin-right: 30px;
+}
+
+.image_4 {
+  width: 100%;
+}
+
+.article-two .article__image {
+  margin: 0 0 100px 0;
+}
+
+.article-two .article__text {
+  margin-bottom: 100px;
+}
+
+
+.article-one {
+  margin: 0 0 200px 0;
+}
+
+.border {
+	background-color: green;
+	border: 5px solid red;
+	margin: 20px;
+	border-radius: 14px;
+	box-shadow: 5px 5px 15px 3px #000;
+}
+.border-two{
+	color: blue;
+	border-bottom: 2px dashed rgb(223, 15, 7);
+	background-color: rgb(128, 0, 117);
+
+}
+.block {
+	border: 10px solid rgb(90, 7, 223);
+	margin: 20px;
+	border-radius: 70%;
+	opacity: 0.7;
+
+}
